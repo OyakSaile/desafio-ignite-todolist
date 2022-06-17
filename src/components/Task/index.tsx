@@ -6,9 +6,9 @@ import checkedImage from "../../assets/checkedImage.svg";
 interface TaskProps {
   isCompleted?: boolean;
   text: string;
-  id: number;
-  handleRemoveTask: (id: number) => void;
-  handleCompleteTask: (id: number) => void;
+  id: string;
+  handleRemoveTask: (id: string) => void;
+  handleCompleteTask: (id: string) => void;
 }
 export function Task({
   isCompleted = false,
