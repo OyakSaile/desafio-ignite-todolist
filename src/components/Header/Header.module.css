@@ -1,0 +1,15 @@
+.header {
+  color: white;
+  background: var(--gray-700);
+  margin: 0 auto;
+  height: 12.5rem;
+}
+
+.container {
+  height: 100%;
+  max-width: 46rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
